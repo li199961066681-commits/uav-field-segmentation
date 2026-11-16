@@ -53,7 +53,7 @@ pip install -r requirements.txt
 python uav_demo.py          # 自动读取同目录下的 png/jpg，输出到 output/
 ```
 
-输出：`output/overlay_<图片名>.png`（原图 + 红线图斑）。
+输出：`output/overlay_<图片名>.png`（原图 + 红线图斑）；本仓库的示例结果存放在 `result/`。
 
 实测结果：
 
@@ -80,7 +80,7 @@ uav-field-segmentation/
 ├── uav_demo.py            # 主脚本（参数集中在顶部 P 字典）
 ├── requirements.txt
 ├── data/                  # 输入的正射影像
-├── result/                # 分割叠加图
+├── result/                # 分割叠加图（脚本运行输出在 output/，整理后提交于此）
 └── annotations/           # labelme 人工复核后的标注 JSON
 ```
 
